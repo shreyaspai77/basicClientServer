@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  font-family: "JetBrains Mono", monospace;
+}
+body {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 14px;
+  min-height: 100vh;
+}
+h1,
+h4 {
+  /* text-emphasis: '📖'; */
+  text-align: center;
+}
+form,
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+form textarea {
+  resize: none;
+  width: 100%;
+  min-height: 150px;
+}
+form button {
+  padding: 8px;
+  cursor: pointer;
+}
+.iconButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  place-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  padding: 8px;
+}
+.button {
+  display: flex;
+  align-self:last baseline;
+}
+.iconButton :hover {
+  background-color: rgb(222, 208, 208);
+}
+.queryContainer,
+.query {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.query{
+    padding: 14px;
+    border: 1px solid lightgrey;
+}

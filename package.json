@@ -1,0 +1,23 @@
+{
+  "name": "basicclientserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.5",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "types": "file:../../../../../../node"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
